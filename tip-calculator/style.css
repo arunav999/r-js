@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  /* border: 1px solid black; */
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: content-box;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+body {
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+header {
+  padding: 1rem;
+}
+
+main p {
+  font-size: 2rem;
+}
+
+.input-con {
+  display: flex;
+  flex-direction: column;
+}
+
+.input label {
+  padding-bottom: 0.5rem;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.input input {
+  font-size: 2rem;
+  padding: 0.5rem;
+  outline: none;
+}
+
+.cal-btn {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.cal-btn button {
+  padding: 1rem;
+  width: 95%;
+  background-color: rgb(19, 155, 19);
+  border: none;
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+}
